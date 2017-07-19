@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://vaadin-demo.database.windows.net:1433;database=vaadin-demo;user=vaadin-demo@vaadin-demo;password=******;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  profiles:
+    active:
+    - local
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

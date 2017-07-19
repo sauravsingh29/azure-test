@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ss-azure-test
+vaadin:
+  servlet:
+    production-mode: true
